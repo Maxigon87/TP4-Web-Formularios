@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Ejercicio Adicional 1</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+	<style>
+		body {
+			margin-top: 00px;
+			background-image: linear-gradient(to right, #352937, #4a3d53, #5d5373, #6e6a94, #7b84b7, #6e8abd, #5e8fc2, #4d95c4, #2885a6, #067386, #006168, #074f4b);
+		}
+
+		form {
+			width: 900px;
+			padding: 16px;
+			border-radius: 10px;
+			margin: auto;
+			margin-top: 200px;
+			background-color: rgb(228, 232, 233, 0.6);
+		}
+
+		form label {
+			width: 240px;
+			font-weight: bold;
+			display: inline-block;
+			margin-right: 150px;
+		}
+
+		form input[type="text"] {
+			width: 180px;
+			padding: 3px 10px;
+			border: 1px solid #f6f6f6;
+			border-radius: 3px;
+			background-color: #f6f6f6;
+			margin: 8px 0;
+			display: inline-block;
+			
+		}
+		form input:hover{
+			background-color: #006168;
+		}
+		form textarea:hover{
+			background-image: url(https://i.makeagif.com/media/7-21-2018/ygrBHo.gif);
+		}
+
+		form input[type="submit"] {
+			width: 100%;
+			padding: 8px 16px;
+			margin-top: 32px;
+			border: 1px solid #000;
+			border-radius: 5px;
+			display: block;
+			color: #fff;
+			background-color: #000;
+		}
+
+		form input[type="submit"]:hover {
+			cursor: pointer;
+		}
+
+		textarea {
+			width: 400px;
+			height: 150px;
+			border: 1px solid #f6f6f6;
+			border-radius: 3px;
+			background-color: #f6f6f6;
+			margin: 8px 0;
+			resize: none;
+			display: inline-flex;
+		}
+	</style>
+</head>
+
+<body>
+
+
+	// <form action="#" target="" method="get" name="formDatosPersonales">
+
+		<label for="nombre">Input Text</label>
+		<input type="text" name="caja" />
+		<br>
+		<label for="apellidos">Input Password</label>
+		<input type="text" name="caja" />
+		<br>
+		<label for="email" />Checkbox</label>
+		<input type="checkbox" />
+		<br>
+		<label for="radio">Radio:</label>
+		<input type="radio" name="radio" value="out"> out
+		<input type="radio" name="radio" value="non"> non <br>
+		<label for="mensaje">Textarea</label>
+		<textarea name="caja" for="mensaje" maxlength="300" ;"></textarea>
+		<label for="">Select (with short options):</label>
+		<select name="color" id="color">
+			<option value="r">Shor</option>
+		</select> <br><br>
+		<label for="">Select (with long options):</label>
+		<select name="color" id="color">
+			<option value="r">Big Option test line with more words</option>
+		</select><br><br>
+		<label for="">Submit button:</label>
+		<button type="button">Send</button>
+	</form>
+
+</body>
+
+</html>
